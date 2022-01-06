@@ -11,6 +11,8 @@ body{
 .button{
     padding: 20px 40px;
     background-color: indianred;
+    text-decoration: none;
+    color: ivory;
 }
 /** hero start**/
 .hero{
@@ -35,7 +37,7 @@ width: 80%;
 font-family: 'Luxurious Roman', cursive;
 font-size: 40px;
 }
-.hero-box .h-text h2{
+.hero-box .h-text > h2{
     font-size: 40px;
     color:brown;
 }
@@ -54,12 +56,12 @@ margin-bottom: 45px;
     width: 90%;
     margin: auto;
 }
-.mission h1{
+.mission > h1{
     text-align: center;
     font-size: 40px;
     padding: 30px 0px;
 }
-.mission span{
+.mission > span{
     color: indianred;
 }
 .mission-area{
@@ -73,11 +75,11 @@ margin-bottom: 45px;
     padding:  30px 10px;
     box-shadow: 3px 1px 9px black;
 }
-.mission .mission-box h3{
+.mission .mission-box > h3{
     font-size: 24px;
     color: #000;
 }
-.mission .mission-box p{
+.mission .mission-box > p{
     font-size: 16px;
     color: #000000;
     padding: 20px 0px;
@@ -119,11 +121,11 @@ width: 100%;
     padding-right: 40px;
     padding-top: 30px;
 }
-.develop-text h1{
+.develop-text > h1{
     font-weight: 900;
     font-size: 34px;
 }
-.develop-text p{
+.develop-text > p{
     font-size: 16px;
     font-weight: 400;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -133,7 +135,7 @@ width: 100%;
 
 /**develop-about end**/
 
-/**services**/
+/**services start**/
 .services{
     background-color:#273c75;
 }
@@ -159,13 +161,14 @@ box-shadow: -1px 1px 15px 0px rgb(26, 128, 0);
 border-radius: 5px;
 margin-right: 10px;
 }
-.services .service-team .team h1, p{
+.services .service-team .team > h1, p{
     text-align: center;
 }
 .services .service-team .team img{
     width: 140px;
 margin-left: 100px;
 }
+/**services end**/
 
 /**footer start**/
 footer{
@@ -178,11 +181,11 @@ footer h1{
     color: #ffff;
     font-family: 'Luxurious Roman', cursive;
 }
-footer p{
+footer > p{
     text-align: center;
     color: rgb(233, 215, 216);
 }
-footer span{
+footer > span{
     color: brown;
 }
 
